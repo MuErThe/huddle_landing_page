@@ -1,0 +1,246 @@
+/*******************
+Basic Styles
+********************/
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/***************
+Top container
+***************/
+.top-container {
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.notdoneyet-btn {
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+  background: white;
+  border-radius: 30px;
+  border-color: #fd53c0;
+  border-style: solid;
+  padding: 5px 20px 5px 20px;
+  color: #fd53c0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-style: normal;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+}
+
+.try-btn {
+  position: absolute;
+  right: 50px;
+}
+
+.top-antisocial {
+  margin-top: 150px;
+}
+
+.top-antisocial-desc {
+  width: 35%;
+  margin: auto auto 30px auto;
+}
+
+.getstarted-btn {
+  cursor: pointer;
+  background: #fd53c0;
+  border-radius: 30px;
+  border: none;
+  padding: 15px 40px 15px 40px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
+
+.screen-mock {
+  display: block;
+  width: 60%;
+  margin: 80px auto 100px auto;
+}
+
+/****************************************
+Growth of Communities and messages sent
+****************************************/
+.nonantisocial-container {
+  text-align: center;
+}
+
+.non-antisocial {
+  display: inline-block;
+  margin: 50px 50px 100px auto;
+  width: 20%;
+}
+
+.non-antisocial1 {
+  display: inline-block;
+  margin-left: 50px;
+  width: 20%;
+}
+
+.value-img {
+  margin-right: 150px;
+  width: 15%;
+}
+
+.value {
+  font-size: 70px;
+  margin: 0 0 auto auto;
+}
+
+.value-desc {
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+/***************
+Body section
+***************/
+.grow-together {
+	width: 75%;
+  margin: 100px auto 400px 160px;;
+  text-align: left;
+}
+
+.grow-together-img {
+	width: 45%;
+  float: right;
+}
+
+.flow-convo {
+  width: 75%;
+  margin: 100px 160px 400px auto;
+  text-align: left;
+}
+
+.flow-convo-img {
+  width: 45%;
+  float: left;
+	margin-right: 30px;
+}
+
+.your-users {
+	width: 75%;
+  margin: 100px auto 400px 160px;;
+  text-align: left;
+}
+
+.your-users-img {
+	width: 45%;
+  float: right;
+}
+
+/*******************
+News Letter Section
+********************/
+.build {
+  text-align: center;
+  margin: 100px auto 100px auto;
+}
+
+/***************
+Contact Section
+****************/
+.details {
+  display: flex;
+  background-color: #01262f;
+  color: #fff;
+  padding: 50px 100px 50px 100px;
+}
+
+.details-left {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.details-left p {
+  width: 55%;
+  margin: 30px 0 20px 0;
+}
+
+.social i {
+  padding-top: 20px;
+  padding-right: 15px;
+}
+
+.details-right {
+  margin-left: 100px;
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+
+.details-right-head{
+	margin-top: 0;
+}
+
+.details-right p {
+  width: 55%;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.footer-icon img {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.footer-icon, .footer-text {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+input[type=text] {
+  margin-top: 20px;
+  padding: 10px 60px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.subscribe-btn {
+  cursor: pointer;
+  background: #fd53c0;
+  border-radius: 5px;
+  border: none;
+  margin-left: 60px;
+  padding: 10px 40px 10px 40px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
+
+/***************
+Copyright
+***************/
+.copyright {
+  background-color: #01262f;
+  color: #fff;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #f2f2f0;
+}
